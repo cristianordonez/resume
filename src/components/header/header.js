@@ -24,16 +24,15 @@ export default class Header extends Component {
             <h3>I'm a <span>Registered Dietitian</span> and <span>University of Michigan</span> MPH graduate. My goal is to use the skills I have learned and the experience I've gained to help others. Let's <a className="smoothscroll" href="#about">start scrolling </a>
               and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
-            <ul className="social">
 
 
-              
-              <li><form method="get" action="Resume 2020.pdf">
+            <ul className="social">  
+              <li>
         <div class="site-buttons">
           
-            <button type="submit" class="btn btn-outline-danger"><i class="fas fa-dribble" aria-hidden="true"></i> GET CV</button>
+            <button type="submit" class="btn btn-outline-danger"><i class="fas fa-dribble" aria-hidden="true"></i> <a className="smoothscroll" href="#contact">Contact Me</a></button>
         </div>
-      </form></li>
+      </li>
        
             </ul>
           </div>
