@@ -8,7 +8,7 @@ export default class About extends Component {
 <section id="about">
           <div className="row">
             <div className="three columns">
-              <img className="profile-pic" src="images/profilepic.jpg" alt="" />
+              <img className="profile-pic" src="images/Coverpic1.jpg" alt="" />
             </div>
             <div className="nine columns main-col">
               <h2>About Me</h2>
@@ -23,12 +23,12 @@ export default class About extends Component {
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>Jonathan Doe</span><br />
-                    <span>1600 Amphitheatre Parkway<br />
-                      Mountain View, CA 94043 US
+                    <span>Cristian Ordoñez, RD, MPH</span><br />
+                    <span>565 Manchester Pl.<br />
+                      Morganville, NJ 07751 US
                     </span><br />
-                    <span>(123)456-7890</span><br />
-                    <span>anyone@website.com</span>
+                    <span>(732)912-4457</span><br />
+                    <span>cristianordonezRD.com</span>
                   </p>
                 </div>
                 <div className="columns download">
