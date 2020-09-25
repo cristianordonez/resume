@@ -62,4 +62,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+<!-- a little help for the Netlify post processing bots -->
+<form name="contactForm" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="contactName" />
+  <input type="text" name="contactSubject" />
+  <input type="email" name="contactEmail" />
+  <textarea name="contactMessage"></textarea>
+</form>
+
 </html>

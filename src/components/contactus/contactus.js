@@ -26,21 +26,30 @@ export default class ContactUs extends  Component {
           <div className="eight columns">
         
 
-//new contact form
 
-<form
-  name="contact"
-  method="POST"
-  data-netlify="true"
-  data-netlify-honeypot="bot-field"
->
-  <input name="name" placeholder="Your Name" type="text"></input>
-</form>
 
             {/* form */}  
-            <form action method="POST" id="contactForm" name="contactForm" data-netlify="true">
+            <form action method="POST" id="contactForm" name="contactForm">
               <fieldset>
 
+
+
+<form name="contactForm" method="POST">
+  <input type="hidden" name="contactName" value="contactForm" />
+  <p>
+    <label>Your Name : <input type="text" name="contactName"/></label>
+  </p>
+  <p>
+    <label>Your Email : <input type="email" name="contactEmail"/></label>
+  </p>
+  <p>
+    <label>Subject: <input type="email" name="contactSubject"/></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="contactMessage"/></label>
+  </p>
+
+</form>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
                   <input type="text" defaultValue size={35} id="contactName" name="contactName" />
@@ -76,7 +85,6 @@ export default class ContactUs extends  Component {
                 </div>
               </fieldset>
             </form> {/* Form End */}
-
 
 
 
