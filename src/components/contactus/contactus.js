@@ -26,6 +26,16 @@ export default class ContactUs extends  Component {
           <div className="eight columns">
         
 
+//new contact form
+
+<form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+>
+  <input name="name" placeholder="Your Name" type="text"></input>
+</form>
 
             {/* form */}  
             <form action method="POST" id="contactForm" name="contactForm" data-netlify="true">
@@ -54,9 +64,6 @@ export default class ContactUs extends  Component {
                   <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
 
-
-                <div data-netlify-recaptcha="true">
-                </div>
                 
 
 
@@ -69,6 +76,8 @@ export default class ContactUs extends  Component {
                 </div>
               </fieldset>
             </form> {/* Form End */}
+
+
 
 
 
