@@ -27,14 +27,10 @@ export default class ContactUs extends  Component {
         
 
 
-
             {/* form */}  
             <form action method="POST" id="contactForm" name="contactForm">
-            <input type="hidden" name="contactName" value="contactForm" />
+      
               <fieldset>
-
-
-
 
                 <div>
                   <label htmlFor="contactName">Name: <span className="required">*</span></label>
@@ -73,7 +69,7 @@ export default class ContactUs extends  Component {
             </form> {/* Form End */}
 
 
-
+            
 
 
             {/* contact-warning */}
