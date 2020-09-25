@@ -28,32 +28,26 @@ export default class ContactUs extends  Component {
 
 
             {/* form */}  
-            <form action method="POST" id="contactForm" name="contactForm" data-netlify="true">
-      <input type="hidden" name="form-name" value="contactForm"/>
+            <form action method="POST"  name="contact" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact"/>
 
             <fieldset>
 
                 <div>
-                  <label htmlFor="contactName">Name: <span className="required">*</span></label>
-                  <input type="text"  size={35} id="contactName" name="contactName" />
+                  <label htmlFor="name">Name: <span className="required">*</span></label>
+                  <input type="text"  size={35} name="name" />
                 </div>
 
 
                 <div>
-                  <label htmlFor="contactEmail">Email: <span className="required">*</span></label>
-                  <input type="text"  size={35} id="contactEmail" name="contactEmail" />
+                  <label htmlFor="email">Email: <span className="required">*</span></label>
+                  <input type="email"  size={35}  name="email" />
                 </div>
 
 
                 <div>
-                  <label htmlFor="contactSubject">Subject:</label>
-                  <input type="text"  size={35} id="contactSubject" name="contactSubject" />
-                </div>
-
-
-                <div>
-                  <label htmlFor="contactMessage">Message: <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                  <label htmlFor="message">Message: <span className="required">*</span></label>
+                  <textarea cols={50} rows={15} name="message" defaultValue={""} />
                 </div>
 
                 
