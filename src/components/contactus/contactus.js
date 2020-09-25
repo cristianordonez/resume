@@ -1,5 +1,11 @@
+
+
 import React, { Component } from 'react';
 export default class ContactUs extends  Component {
+
+
+
+
   render() {
     return (
       <React.Fragment>
@@ -7,7 +13,7 @@ export default class ContactUs extends  Component {
 <section id="contact">
         <div className="row section-head">
           <div className="two columns header-col">
-            <h1><span>GetTouch.</span></h1>
+            <h1><span>Get In Touch.</span></h1>
           </div>
           <div className="ten columns">
             <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
@@ -18,7 +24,8 @@ export default class ContactUs extends  Component {
         </div>
         <div className="row">
           <div className="eight columns">
-            {/* form */}
+        
+            {/* form */}  
             <form action method="post" id="contactForm" name="contactForm">
               <fieldset>
                 <div>
@@ -45,6 +52,10 @@ export default class ContactUs extends  Component {
                 </div>
               </fieldset>
             </form> {/* Form End */}
+
+
+
+
             {/* contact-warning */}
             <div id="message-warning"> Error boy</div>
             {/* contact-success */}
@@ -91,5 +102,4 @@ export default class ContactUs extends  Component {
     )
   }
 }
-
 
