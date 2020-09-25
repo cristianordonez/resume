@@ -30,46 +30,32 @@ export default class ContactUs extends  Component {
 
             {/* form */}  
             <form action method="POST" id="contactForm" name="contactForm">
+            <input type="hidden" name="contactName" value="contactForm" />
               <fieldset>
 
 
 
-<form name="contactForm" method="POST">
-  <input type="hidden" name="contactName" value="contactForm" />
-  <p>
-    <label>Your Name : <input type="text" name="contactName"/></label>
-  </p>
-  <p>
-    <label>Your Email : <input type="email" name="contactEmail"/></label>
-  </p>
-  <p>
-    <label>Subject: <input type="email" name="contactSubject"/></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="contactMessage"/></label>
-  </p>
 
-</form>
                 <div>
-                  <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactName" name="contactName" />
+                  <label htmlFor="contactName">Name: <span className="required">*</span></label>
+                  <input type="text"  size={35} id="contactName" name="contactName" />
                 </div>
 
 
                 <div>
-                  <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
+                  <label htmlFor="contactEmail">Email: <span className="required">*</span></label>
+                  <input type="text"  size={35} id="contactEmail" name="contactEmail" />
                 </div>
 
 
                 <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+                  <label htmlFor="contactSubject">Subject:</label>
+                  <input type="text"  size={35} id="contactSubject" name="contactSubject" />
                 </div>
 
 
                 <div>
-                  <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                  <label htmlFor="contactMessage">Message: <span className="required">*</span></label>
                   <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
 
