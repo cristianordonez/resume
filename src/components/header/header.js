@@ -28,9 +28,9 @@ export default class Header extends Component {
 
             <ul className="social">  
               <li>
-        <div class="site-buttons">
+        <div className="site-buttons">
           
-            <button type="submit" class="btn btn-outline-danger"><i class="fas fa-dribble" aria-hidden="true"></i> <a className="smoothscroll" href="#contact">Contact Me</a></button>
+            <button type="submit" className="btn btn-outline-danger"><a className="smoothscroll" href="#contact">Contact Me</a></button>
         </div>
       </li>
        
