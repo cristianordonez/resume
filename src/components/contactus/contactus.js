@@ -28,9 +28,10 @@ export default class ContactUs extends  Component {
 
 
             {/* form */}  
-            <form action method="POST" id="contactForm" name="contactForm">
-      
-              <fieldset>
+            <form action method="POST" id="contactForm" name="contactForm" data-netlify="true">
+      <input type="hidden" name="form-name" value="contactForm"/>
+
+            <fieldset>
 
                 <div>
                   <label htmlFor="contactName">Name: <span className="required">*</span></label>
@@ -66,7 +67,7 @@ export default class ContactUs extends  Component {
                     <img alt="" src="images/loader.gif" />
                   </span>
                 </div>
-                
+
               </fieldset>
             </form> {/* Form End */}
 
