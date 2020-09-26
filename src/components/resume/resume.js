@@ -16,15 +16,7 @@ export default class Resume extends Component {
               <h1><span>Education</span></h1>
             </div>
             <div className="nine columns main-col">
-              <div className="row item">
-                <div className="twelve columns">
-                  <h3>Louis Stokes Cleveland Veteran Affairs Medical Center</h3>
-                  <p className="info">Dietetic Internship<span>•</span> <em className="date">July 2020</em></p>
-                  <p>
-                 Developed my knowledge and skills from world-renowned public health experts in areas such as Nutritional Sciences, Epidemiology, Biostastics, Environmental Health and Health Policy and Management.
-                  </p>
-                </div>
-              </div> {/* item end */}
+           
 
 
 
@@ -44,10 +36,7 @@ export default class Resume extends Component {
                   <h3>Stockton University</h3>
                   <p className="info">B.S. Degree in Biology<span>•</span> <em className="date">December 2016</em></p>
                   <p>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                    nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                    Enrolled as member of the Educational Opportunity Fund Program. Spent my undergraduate career as an active member in Alpha Chi Rho Inc. Fraternity where I organized and participated in several philanthropic events. Also graduated with a minor in chemistry. 
                   </p>
                 </div>
               </div> {/* item end */}
@@ -57,7 +46,7 @@ export default class Resume extends Component {
         ----------------------------------------------- */}
           <div className="row work">
             <div className="three columns header-col">
-              <h1><span>Work</span></h1>
+              <h1><span>Experience</span></h1>
             </div>
             <div className="nine columns main-col">
               <div className="row item">
