@@ -20,7 +20,7 @@ export default class Portfolio extends Component {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Healthy Recipe Infograph</h5>
-                        <p>Graphic Design and social media</p>
+                        <p>Social Media</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -36,7 +36,7 @@ export default class Portfolio extends Component {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Supplement Brochure</h5>
-                        <p>Educational Handouts</p>
+                        <p>Graphic Design</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -49,34 +49,34 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title>
-                    <img alt="" src="images/portfolio/judah.jpg" />
+                    <img alt="" src="images/portfolio/highIntensitySportsHandout.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Judah</h5>
-                        <p>Webdesign</p>
+                        <h5>High-Intensity Sports Nutrition Handout</h5>
+                        <p>Education</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item 3 end */}
 
 
 
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-04" title>
-                    <img alt="" src="images/portfolio/into-the-light.jpg" />
+                    <img alt="" src="images/portfolio/NDFinalManuscript.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Into The Light</h5>
-                        <p>Photography</p>
+                        <h5>Nutrition Day Poster Presentation </h5>
+                        <p>Research</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item 4 end */}
 
 
 
@@ -176,7 +176,7 @@ export default class Portfolio extends Component {
             <div className="description-box">
               <h4>Supplement Brochure</h4>
               <p> Produced educational brochure regarding supplement use and sports nutrition.</p>
-              <span className="categories"><i className="fa fa-tag" />Education, Sports Nutrition</span>
+              <span className="categories"><i className="fa fa-tag" />Education, Sports Nutrition, Graphic Design</span>
             </div>
             <div className="link-box">
               <a href="images/portfolio/modals/fullSupplementBrochure.pdf">Details</a>
@@ -187,14 +187,15 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-03" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-highIntensitySportsHandout.jpg" alt="" />
             <div className="description-box">
-              <h4>Judah</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding</span>
+              <h4>High-Intensity Sports Nutrition Handout</h4>
+              <p>Created individualized educational materials for athletes in high-intensity sports such as wrestling, 
+                powerlifting, and football. </p>
+              <span className="categories"><i className="fa fa-tag" />Education, Sports Nutrition</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="images/portfolio/modals/fullHighIntensitySportsHandout.pdf">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-03 End */}
@@ -202,14 +203,17 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-NDFinalManuscript.jpg" alt="" />
             <div className="description-box">
-              <h4>Into the Light</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
+              <h4>Nutrition Day Poster Presentation</h4>
+              <p>Collected data and presented research regarding the association between self-rated health and number of hospital 
+                admissions as possible confounders to association between nutrition intake and mortality risk. Data was Collected
+                as part of nutritionDay, a worldwide initiative to increase awareness of malnutrition in hospitals.
+              </p>
+              <span className="categories"><i className="fa fa-tag" />Research</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="images/portfolio/modals/fullNDFinalManuscript.pdf">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-04 End */}
