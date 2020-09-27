@@ -32,11 +32,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-02" title>
-                    <img alt="" src="images/portfolio/console.jpg" />
+                    <img alt="" src="images/portfolio/supplementBrochure.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Console</h5>
-                        <p>Web Development</p>
+                        <h5>Supplement Brochure</h5>
+                        <p>Educational Handouts</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -172,14 +172,14 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-02" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-supplementBrochure.jpg" alt="" />
             <div className="description-box">
-              <h4>Console</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+              <h4>Supplement Brochure</h4>
+              <p> Produced educational brochure regarding supplement use and sports nutrition.</p>
+              <span className="categories"><i className="fa fa-tag" />Education, Sports Nutrition</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="images/portfolio/modals/fullSupplementBrochure.pdf">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-02 End */}
