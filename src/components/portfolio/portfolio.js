@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item 1 end */}
 
 
               <div className="columns portfolio-item">
@@ -42,7 +42,7 @@ export default class Portfolio extends Component {
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item 2 end */}
 
 
 
@@ -93,7 +93,7 @@ export default class Portfolio extends Component {
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item 5 end */}
 
 
 
