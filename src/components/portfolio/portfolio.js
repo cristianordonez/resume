@@ -134,10 +134,10 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-08" title>
-                    <img alt="" src="images/portfolio/color-Game.jpg" />
+                    <img alt="" src="images/portfolio/yelpCamp.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>RGB Color Game</h5>
+                        <h5>YelpCamp</h5>
                         <p>Web Development</p>
                       </div>
                     </div>
@@ -271,15 +271,15 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-08" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-colorGame.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-yelpCamp.jpg" alt="" />
             <div className="description-box">
-              <h4>RGB Color Game</h4>
-              <p>Developed RGB color game with HTML, CSS and Javascript to improve my technical skills. Try it out for yourself to test your knowledge 
-                on the RGB color model! </p>
+              <h4>YelpCamp</h4>
+              <p>Developed custom YelpCamp application with HTML, CSS and Javascript to improve my technical skills. Try it out for yourself if yourself and add
+                some of your own favorite campgrounds! </p>
               <span className="categories"><i className="fa fa-tag" />Web development, Technical Skills</span>
             </div>
             <div className="link-box">
-              <a href="https://practical-goldwasser-a47abd.netlify.app/">Details</a>
+              <a href="https://stark-caverns-61746.herokuapp.com/campgrounds">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-08 End */}
