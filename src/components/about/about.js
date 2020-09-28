@@ -24,7 +24,7 @@ export default class About extends Component {
                     <span>565 Manchester Pl.<br />
                       Morganville, NJ 07751 US
                     </span><br />
-                    <span>(732)912-4457</span><br />
+                    <span>(732) 912-4457</span><br />
                     <span>cristianordonezRD@gmail.com</span>
                   </p>
                 </div>
