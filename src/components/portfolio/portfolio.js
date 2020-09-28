@@ -16,7 +16,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt="" src="images/portfolio/smoothieGuide.jpg" />
+                    <img alt="" src="images/portfolio/smoothie.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Healthy Recipe Infograph</h5>
@@ -49,7 +49,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title>
-                    <img alt="" src="images/portfolio/highIntensitySportsHandout.jpg" />
+                    <img alt="" src="images/portfolio/sportHandout.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>High-Intensity Sports Nutrition Handout</h5>
@@ -66,7 +66,7 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-04" title>
-                    <img alt="" src="images/portfolio/NDFinalManuscript.png" />
+                    <img alt="" src="images/portfolio/nutritionDay.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Nutrition Day Poster Presentation </h5>
@@ -83,11 +83,11 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-05" title>
-                    <img alt="" src="images/portfolio/farmerboy.jpg" />
+                    <img alt="" src="images/portfolio/certificates.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Farmer Boy</h5>
-                        <p>Branding</p>
+                        <h5>Continuing Education for Dietetics</h5>
+                        <p>Certifications</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -100,51 +100,51 @@ export default class Portfolio extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-06" title>
-                    <img alt="" src="images/portfolio/girl.jpg" />
+                    <img alt="" src="images/portfolio/udemyCoursework.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Girl</h5>
-                        <p>Photography</p>
+                        <h5>Web Development and Graphic Design</h5>
+                        <p>Technical Skills</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item 6 end */}
 
 
 
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-07" title>
-                    <img alt="" src="images/portfolio/origami.jpg" />
+                    <img alt="" src="images/portfolio/prezi.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Origami</h5>
-                        <p>Illustrration</p>
+                        <h5>Research Proposal in Neonatal Nutrition</h5>
+                        <p>Analytical Skills</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div> {/* item end */}
+              </div> {/* item 7 end */}
 
 
 
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-08" title>
-                    <img alt="" src="images/portfolio/retrocam.jpg" />
+                    <img alt="" src="images/portfolio/color-Game.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Retrocam</h5>
+                        <h5>RGB Color Game</h5>
                         <p>Web Development</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
                   </a>
                 </div>
-              </div>  {/* item end */}
+              </div>  {/* item 8 end */}
 
 
 
@@ -156,7 +156,7 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-01" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-smoothieGuide.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-smoothie.jpg" alt="" />
             <div className="description-box">
               <h4>Healthy Recipe Infograph</h4>
               <p>Developed infograph for nutritious smoothie recipes that was used by Registered Dietitian 
@@ -172,7 +172,7 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-02" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-supplementBrochure.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-Brochure.jpg" alt="" />
             <div className="description-box">
               <h4>Supplement Brochure</h4>
               <p> Produced educational brochure regarding supplement use and sports nutrition.</p>
@@ -187,7 +187,7 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-03" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-highIntensitySportsHandout.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-highIntensityHandout.jpg" alt="" />
             <div className="description-box">
               <h4>High-Intensity Sports Nutrition Handout</h4>
               <p>Created individualized educational materials for athletes in high-intensity sports such as wrestling, 
@@ -203,7 +203,7 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-NDFinalManuscript.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-nutritionDay.jpg" alt="" />
             <div className="description-box">
               <h4>Nutrition Day Poster Presentation</h4>
               <p>Collected data and presented research regarding the association between self-rated health and number of hospital 
@@ -221,14 +221,16 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-05" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-mainCertificates.jpg" alt="" />
             <div className="description-box">
-              <h4>Farmer Boy</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+              <h4>Continuing Education for Dietetics</h4>
+              <p>Servsafe certified, have also gained variety of continuing education credits and learning certificates 
+                in various areas of dietetics. 
+              </p>
+              <span className="categories"><i className="fa fa-tag" />Certifications, Continuing Education</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="images/portfolio/modals/fullCertificateTraining.pdf">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-05 End */}
@@ -236,14 +238,16 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-06" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-Udemy.jpg" alt="" />
             <div className="description-box">
-              <h4>Girl</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
+              <h4>Web Development and Graphic Design</h4>
+              <p>I have improved my technical skills through online courses in both web development and graphic design,
+                 which showcases my ability to learn difficult material even outside traditional classroom settings.
+              </p>
+              <span className="categories"><i className="fa fa-tag" />Technical Skills, Web Development, Graphic Design</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="images/portfolio/modals/fullUdemyCertificates.pdf">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-06 End */}
@@ -251,14 +255,15 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-07" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-preziPresentation.jpg" alt="" />
             <div className="description-box">
-              <h4>Origami</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
+              <h4>Research Proposal in Neonatal Nutrition</h4>
+              <p>Developed and presented research proposal regarding the growth and development of preterm infants
+                 provided with preterm infant formula at NICU discharge.</p>
+              <span className="categories"><i className="fa fa-tag" />Analytical Skills, Research</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://prezi.com/view/LxrIvBXgONP9oLAi35u3/">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-07 End */}
@@ -266,14 +271,15 @@ export default class Portfolio extends Component {
 
 
           <div id="modal-08" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-colorGame.jpg" alt="" />
             <div className="description-box">
-              <h4>Retrocam</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
+              <h4>RGB Color Game</h4>
+              <p>Developed RGB color game with HTML, CSS and Javascript to improve my technical skills. Try it out for yourself to test your knowledge 
+                on the RGB color model! </p>
+              <span className="categories"><i className="fa fa-tag" />Web development, Technical Skills</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://practical-goldwasser-a47abd.netlify.app/">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-08 End */}
