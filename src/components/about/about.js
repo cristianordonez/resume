@@ -20,7 +20,7 @@ export default class About extends Component {
                 <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>Cristian Ordoñez, RD, MPH</span><br />
+                    <span>Cristian Ordoñez, MPH, RD</span><br />
                     <span>565 Manchester Pl.<br />
                       Morganville, NJ 07751 US
                     </span><br />

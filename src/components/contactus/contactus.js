@@ -80,7 +80,7 @@ export default class ContactUs extends  Component {
             <div className="widget widget_contact">
               <h4>Address and Phone</h4>
               <p className="address">
-                Cristian Ordoñez<br />
+                Cristian Ordoñez, MPH, RD<br />
                 565 Manchester Pl. <br />
                 Morganville, NJ 07751 US<br />
                 <span>(732) 912-4457</span>
